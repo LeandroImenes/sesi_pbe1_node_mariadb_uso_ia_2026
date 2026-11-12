@@ -34,7 +34,7 @@ Projeto realizado para a matéria Programação Back-End 1 do curso de Desenvolv
 <img src="docs/usuario/deleteusu.png">
 <img src="docs/usuario/loginerrado.png">
 <img src="docs/usuario/logincerto.png">
-- Uso de IAências
+- Uso de IA
 <img src="docs/usoia/getia.png">
 <img src="docs/usoia/postia.png">
 <img src="docs/usoia/putia.png">
