@@ -1,0 +1,224 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-11-12T14:00:04.575Z",
+  "__export_source": "BACKTRON-5000",
+  "resources": [
+    {
+      "_id": "wrk_RegistroDoUsoDeIa_1794492004570",
+      "parentId": null,
+      "modified": 1794492004570,
+      "created": 1794492004570,
+      "name": "Projeto RegistroDoUsoDeIa",
+      "description": "Coleção gerada automaticamente pelo BACKTRON-5000",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "fld_usuario_1794492004572",
+      "parentId": "wrk_RegistroDoUsoDeIa_1794492004570",
+      "modified": 1794492004572,
+      "created": 1794492004572,
+      "name": "USUARIO",
+      "description": "Requisições da tabela usuario",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1794492004572,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_list_usuario_1794492004573",
+      "parentId": "fld_usuario_1794492004572",
+      "modified": 1794492004573,
+      "created": 1794492004573,
+      "url": "http://localhost:3000/usuario",
+      "name": "Listar usuario",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -100,
+      "_type": "request"
+    },
+    {
+      "_id": "req_getid_usuario_1794492004573",
+      "parentId": "fld_usuario_1794492004572",
+      "modified": 1794492004573,
+      "created": 1794492004573,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Buscar usuario por ID",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -90,
+      "_type": "request"
+    },
+    {
+      "_id": "req_post_usuario_1794492004573",
+      "parentId": "fld_usuario_1794492004572",
+      "modified": 1794492004573,
+      "created": 1794492004573,
+      "url": "http://localhost:3000/usuario",
+      "name": "Cadastrar usuario",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"valor_nome\",\n  \"email\": \"valor_email\",\n  \"senha\": \"valor_senha\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -80,
+      "_type": "request"
+    },
+    {
+      "_id": "req_put_usuario_1794492004573",
+      "parentId": "fld_usuario_1794492004572",
+      "modified": 1794492004573,
+      "created": 1794492004573,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Alterar usuario",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"valor_nome\",\n  \"email\": \"valor_email\",\n  \"senha\": \"valor_senha\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -70,
+      "_type": "request"
+    },
+    {
+      "_id": "req_del_usuario_1794492004573",
+      "parentId": "fld_usuario_1794492004572",
+      "modified": 1794492004573,
+      "created": 1794492004573,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Excluir usuario",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -60,
+      "_type": "request"
+    },
+    {
+      "_id": "fld_usoia_1794492004574",
+      "parentId": "wrk_RegistroDoUsoDeIa_1794492004570",
+      "modified": 1794492004574,
+      "created": 1794492004574,
+      "name": "USOIA",
+      "description": "Requisições da tabela usoia",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1794492004574,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_list_usoia_1794492004574",
+      "parentId": "fld_usoia_1794492004574",
+      "modified": 1794492004574,
+      "created": 1794492004574,
+      "url": "http://localhost:3000/usoia",
+      "name": "Listar usoia",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -100,
+      "_type": "request"
+    },
+    {
+      "_id": "req_getid_usoia_1794492004574",
+      "parentId": "fld_usoia_1794492004574",
+      "modified": 1794492004574,
+      "created": 1794492004574,
+      "url": "http://localhost:3000/usoia/1",
+      "name": "Buscar usoia por ID",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -90,
+      "_type": "request"
+    },
+    {
+      "_id": "req_post_usoia_1794492004574",
+      "parentId": "fld_usoia_1794492004574",
+      "modified": 1794492004574,
+      "created": 1794492004574,
+      "url": "http://localhost:3000/usoia",
+      "name": "Cadastrar usoia",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"usuarioId\": \"valor_usuarioId\",\n  \"sistema\": \"valor_sistema\",\n  \"tipo\": \"valor_tipo\",\n  \"finalidade\": \"valor_finalidade\",\n  \"tecnologia\": \"valor_tecnologia\",\n  \"nivelRisco\": \"valor_nivelRisco\",\n  \"revisaoHumana\": \"valor_revisaoHumana\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -80,
+      "_type": "request"
+    },
+    {
+      "_id": "req_put_usoia_1794492004574",
+      "parentId": "fld_usoia_1794492004574",
+      "modified": 1794492004574,
+      "created": 1794492004574,
+      "url": "http://localhost:3000/usoia/1",
+      "name": "Alterar usoia",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"usuarioId\": \"valor_usuarioId\",\n  \"sistema\": \"valor_sistema\",\n  \"tipo\": \"valor_tipo\",\n  \"finalidade\": \"valor_finalidade\",\n  \"tecnologia\": \"valor_tecnologia\",\n  \"nivelRisco\": \"valor_nivelRisco\",\n  \"revisaoHumana\": \"valor_revisaoHumana\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -70,
+      "_type": "request"
+    },
+    {
+      "_id": "req_del_usoia_1794492004574",
+      "parentId": "fld_usoia_1794492004574",
+      "modified": 1794492004574,
+      "created": 1794492004574,
+      "url": "http://localhost:3000/usoia/1",
+      "name": "Excluir usoia",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -60,
+      "_type": "request"
+    }
+  ]
+}
