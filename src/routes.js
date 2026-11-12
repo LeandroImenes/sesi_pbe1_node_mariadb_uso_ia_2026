@@ -14,7 +14,7 @@ router.get('/', rotaInicial)
 router.get('/usuario', usuarioController.listar)
 router.get('/usuario/:id', usuarioController.buscarPorId)
 router.post('/usuario', usuarioController.cadastrar)
-router.put('/usuario/:id', usuarioController.alterar)
+router.patch('/usuario/:id', usuarioController.alterar)
 router.delete('/usuario/:id', usuarioController.excluir)
 router.post('/usuario/login', usuarioController.login)
 
