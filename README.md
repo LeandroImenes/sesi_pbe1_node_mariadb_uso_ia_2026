@@ -22,7 +22,7 @@ Projeto realizado para a matéria Programação Back-End 1 do curso de Desenvolv
 - Clone este repositório em seu pc
 - Abra a pasta com um compilador (geralmente VS code)
 - Rode o servidor no cmd utilizando o comando <kbd>npm run dev</kbd>
-- Abra o Insomnia e teste as HTTP requests seguindo o CRUD (Create, Read, Update, Delete), adicionando também o resumo, login e o patch (substitui o PUT no usuário)
+- Abra o Insomnia e teste as HTTP requests seguindo o CRUD (Create, Read, Update, Delete), adicionando também o resumo (usoia), login (usuario) e o patch (substitui o PUT no usuário)
 
 <br>
 
