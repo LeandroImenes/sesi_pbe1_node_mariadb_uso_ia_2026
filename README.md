@@ -1,5 +1,5 @@
 # Registros do Uso de IA
-Projeto realizado para a matéria Programação Back-End 1 do curso de Desenvolvimento de Sistemas do SENAI
+Um pesquisador da Faculdade de Jauariúna precisa de um banco de dados de registros de usos de Inteligência Artificial
 
 ## Diagrama de classes
 <img src="docs/der_uso_ia.png">
